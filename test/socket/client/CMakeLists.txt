@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(client)
+
+ADD_EXECUTABLE(client client.cpp)

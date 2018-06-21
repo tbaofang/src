@@ -1,2 +1,4 @@
 */build/
 code/mrpt/lidar_SC/build/
+test/socket/server/build
+test/socket/client/build

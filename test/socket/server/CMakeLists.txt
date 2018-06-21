@@ -1,0 +1,4 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(server)
+
+ADD_EXECUTABLE(server server.cpp)

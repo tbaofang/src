@@ -1,0 +1,8 @@
+1.本样例是独立工程样例
+2.可在src文件夹中添加自己的样例，或者mrpt中移植过来
+
+eigen安装：sudo apt-get install libeigen3-dev
+eigen安装后找不到头文件解决方法：sudo cp -r /usr/include/eigen3/Eigen /usr/local/include/
+
+sudo apt-get install libcx-
+	

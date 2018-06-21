@@ -1,0 +1,18 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5) #版本号
+#项目名称,同时引入两个变量HELLO_BINARY_DIR和HELLO_SOURCE_DIR
+#同时自动定义PROJECT_BINARY_DIR和PROJECT_SOURCE_DIR
+PROJECT(robot1.0.0)	
+
+SET( CMAKE_CXX_FLAGS "-std=c++11 -O3")
+
+#输出两个默认变量的值,非必选
+MESSAGE(STATUS "This is BINARY dir：" ${PROJECT_BINARY_DIR})
+MESSAGE(STATUS "This is SOURCE dir：" ${PROJECT_SOURCE_DIR})
+	    
+#set(SRC_LIST main.cpp)		    #设置变量名为源文件
+#ADD_EXECUTABLE(robot ${SRC_LIST})	    #执行程序robot，链接SRC_LIST变量源文件
+
+#ADD_SUBDIRECTORY(libmrpt)
+ADD_SUBDIRECTORY(src)		
+		  
+

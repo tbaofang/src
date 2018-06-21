@@ -1,0 +1,5 @@
+1.lidar_Ho样例包 可实时输出雷达数据以及生成地图，内含驱动与样例程序
+	编译后使用方法：
+	1).robot-clean根目录下建立build，并编译，将雷达插入主机usb上
+	2).build目录下打开终端，输入指令如下：
+	2).sudo ./lidar_Ho_test ../config/icp-slam-live_demo_RPLIDAR_gridmap.ini
